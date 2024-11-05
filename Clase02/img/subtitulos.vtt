@@ -1,0 +1,35 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+
+Para cargar un video en HTML, utiliza la etiqueta <b>&lt;video&gt;</b>.
+
+00:00:04.000 --> 00:00:09.000
+Añade el atributo <i>controls</i> para mostrar los controles del reproductor.
+
+00:00:09.000 --> 00:00:14.000
+Dentro de la etiqueta <b>&lt;video&gt;</b>, utiliza <u>&lt;source&gt;</u> para definir la fuente del video.
+
+00:00:14.000 --> 00:00:19.000
+El atributo <i>src</i> indica la ruta del archivo, y <i>type</i> especifica el formato.
+
+00:00:19.000 --> 00:00:23.000
+Por ejemplo, puedes usar: <b>src="video.mp4"</b> y <b>type="video/mp4"</b>.
+
+00:00:23.000 --> 00:00:29.000
+Si quieres agregar subtítulos, utiliza la etiqueta <b>&lt;track&gt;</b> dentro de <b>&lt;video&gt;</b>.
+
+00:00:29.000 --> 00:00:35.000
+Especifica el archivo de subtítulos con <b>src="subtitulos.vtt"</b> y el idioma con <i>srclang</i>.
+
+00:00:35.000 --> 00:00:40.000
+No olvides añadir el atributo <i>label</i> para que los usuarios puedan identificar el idioma.
+
+00:00:40.000 --> 00:00:44.000
+También puedes incluir diferentes versiones del video con <u>&lt;source&gt;</u>.
+
+00:00:44.000 --> 00:00:50.000
+Si un formato no es compatible, el navegador intentará cargar el siguiente.
+
+00:00:50.000 --> 00:00:52.000
+¡Y así es como cargas un video en HTML!

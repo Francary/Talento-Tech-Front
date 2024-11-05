@@ -1,0 +1,120 @@
+body {
+    font-size: 16px; /* Tamaño de la fuente base */
+    
+  }
+
+  .list {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+/*Medidas Absolutas*/
+  .px {
+    background-color: #e0f7fa;
+    padding: 20px 0;
+  }
+
+  .pt {
+    background-color: #ffe0b2;
+    padding: 20pt 0;
+  }
+
+  .cm {
+    background-color: #c8e6c9;
+    padding: 1cm 0;
+  }
+
+  .mm {
+    background-color: #d1c4e9;
+    padding: 15mm 0;
+  }
+
+  .in {
+    background-color: #ffccbc;
+    padding: 0.5in 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+
+
+
+  /*Medidas Relativas*/
+  .porcentaje {
+    width: 50%; /* 50% del ancho del contenedor padre */
+    background-color: #e0f7fa;
+  }
+
+  .em {
+    font-size: 2em; /* 2 veces el tamaño de fuente del elemento padre */
+    background-color: #ffe0b2;
+  }
+
+  .rem {
+    font-size: 1.5rem; /* 1.5 veces el tamaño de fuente de la raíz (16px * 1.5 = 24px) */
+    background-color: #c8e6c9;
+  }
+
+  .vw {
+    width: 50vw; /* 50% del ancho del viewport */
+    background-color: #d1c4e9;
+  }
+
+  .vh {
+    height: 5vh; /* 5% del alto del viewport */
+    background-color: #ffccbc;
+  }
+
+  .vmin {
+    width: 15vmin; /* 15% del tamaño menor entre el ancho o alto del viewport */
+    height: 15vmin;
+    background-color: #ffecb3;
+  }
+
+  .vmax {
+    width: 10vmax; /* 10% del tamaño mayor entre el ancho o alto del viewport */
+    height: 10vmax;
+    background-color: #b2ebf2;
+  }
+
+
+
+  /* Utilización de Google Fonts */
+
+  .Google-Fonts{
+    font-family: "Playwrite GB S", cursive;
+  }
+
+
+    /* Font Awesome */
+    .fa-heart {
+      color: red;
+    }
+    .fa-facebook{
+      color: blue;
+    }
+    .fa-google{
+      font-size: 25px;
+      background: linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .fa-envelope{
+       background: linear-gradient(45deg, #4285F4, #c76060, #FBBC05);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+
+
+    

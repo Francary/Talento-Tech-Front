@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Grid</title>
+
+</head>
+
+<body>
+    <main>
+        <h1>Que es Grid?</h1>
+        <p>En CSS Grid Layout (o simplemente CSS Grid) es una herramienta poderosa que permite crear diseños de
+            página en dos dimensiones, organizando el contenido en filas y columnas. CSS Grid ofrece gran control sobre
+            el posicionamiento y alineación de los elementos, lo que facilita crear estructuras complejas de manera
+            ordenada y flexible.</p>
+
+        <ol >
+            <li>
+                <h3>Configuración de un contenedor Grid</h3>
+                <P>Primero, necesitas un contenedor que actúe como la "grid" principal. Puedes hacerlo de esta forma:</P>
+                <ul>
+                    <li>Activa el Grid Layout. => display: grid;</li>
+                    <li>Define el número y tamaño de las columnas. => grid-template-columns: repeat(3, 1fr); Crea 3 columnas de igual ancho </li>
+                    <li>Define el número y tamaño de las filas. => grid-template-rows: auto;  Define las filas automáticamente </li>
+                    <li>Crea espacio entre las filas y columnas => gap: 10px;  (también puedes usar row-gap y column-gap por separado).</li>
+                </ul>
+                <!-- Ejemplo 1 -->
+                <div class="container1">
+                    <div class="items">
+                        <p>1</p>
+                    </div>
+                    <div class="items">
+                        <p>2</p>
+                    </div>
+                    <div class="items">
+                        <p>3</p>
+                    </div>
+                    <div class="items">
+                        <p>4</p>
+                    </div>
+                    <div class="items">
+                        <p>5</p>
+                    </div>
+                    <div class="items">
+                        <p>6</p>
+                    </div>
+                    <div class="items">
+                        <p>7</p>
+                    </div>
+                    <div class="items">
+                        <p>8</p>
+                    </div>
+                </div>
+
+            </li>
+            <li>
+                <h3>Definir el tamaño de las columnas y filas</h3>
+                <P>En el ejemplo anterior, usamos 1fr para dividir el espacio en fracciones iguales. Aquí hay algunas otras unidades útiles:</P>
+                <ul>
+                    <li>fr: Fracción del espacio disponible.</li>
+                    <li>px o %: Tamaños fijos en píxeles o porcentajes.</li>
+                    <li>auto: Ajusta automáticamente el tamaño según el contenido.</li>
+                </ul>
+                  <!-- Ejemplo 2 -->
+                  <div class="container2">
+                    <div class="items">
+                        <p>1</p>
+                    </div>
+                    <div class="items">
+                        <p>2</p>
+                    </div>
+                    <div class="items">
+                        <p>3</p>
+                    </div>
+                    <div class="items">
+                        <p>4</p>
+                    </div>
+                    <div class="items">
+                        <p>5</p>
+                    </div>
+                    <div class="items">
+                        <p>6</p>
+                    </div>
+                    <div class="items">
+                        <p>7</p>
+                    </div>
+                    <div class="items">
+                        <p>8</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>Posicionamiento de los elementos (Items)</h3>
+                <P>Cada elemento dentro del contenedor Grid se llama "grid item". Puedes posicionarlos dentro de la grid especificando en qué filas y columnas deben aparecer:</P>
+                      <!-- Ejemplo 3 -->
+                      <div class="container3">
+                        <div class="items item1">
+                            <p>1</p>
+                        </div>
+                        <div class="items item2">
+                            <p>2</p>
+                        </div>
+                        <div class="items item3">
+                            <p>3</p>
+                        </div>
+                        <div class="items item4">
+                            <p>4</p>
+                        </div>
+                        <div class="items item5">
+                            <p>5</p>
+                        </div>
+                        <div class="items item6">
+                            <p>6</p>
+                        </div>
+                        <div class="items item7">
+                            <p>7</p>
+                        </div>
+                        <div class="items item8">
+                            <p>8</p>
+                        </div>
+                    </div>
+            </li>
+          </ol>
+    </main>
+
+
+</body>
+
+</html>

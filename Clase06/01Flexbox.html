@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CSS: Modelo de Caja y Flexbox</title>
+</head>
+<body>
+
+    <h1>  Modelo de Caja y Flexbox</h1>
+
+    <h2>Modelo de Caja</h2>
+
+    <p>Un "Modelo de Caja" en CSS (Box Model) es un concepto clave en el diseño de páginas web. Describe cómo se representa visualmente cada elemento HTML en el navegador. Cada elemento se considera una caja rectangular que consta de varias áreas o capas que afectan el diseño y el espacio que ocupa en la página.</p>
+
+    <p>El modelo de caja CSS está compuesto por las siguientes partes, de adentro hacia afuera:</p>
+
+    <ol class="container">       
+            <li>
+                <h3>Contenido (Content):</h3>
+                <ul>
+                    <li>El área donde se muestra el texto, imagen o cualquier contenido del elemento.</li>
+                    <li>Puedes ajustar su tamaño usando propiedades como width y height.</li>
+                </ul>
+            </li>
+
+        <li>
+            <h3>Relleno (Padding):</h3>
+            <ul>
+                <li>El espacio entre el contenido y el borde (border) del elemento.</li>
+                <li>Este espacio es transparente, pero puede expandirse usando la propiedad padding (ej. padding: 20px;).</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Borde (Border):</h3>
+            <ul>
+                <li>Un borde alrededor del contenido y el relleno.</li>
+                <li>Puedes personalizar el grosor, el estilo y el color del borde con la propiedad border (ej. border: 2px solid black;).</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Margen (Margin):</h3>
+            <ul>
+                <li>El espacio exterior alrededor del borde del elemento, separándolo de otros elementos.</li>
+                <li>Puedes ajustar el espacio con la propiedad margin (ej. margin: 10px;).</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Flexbox</h2>
+
+    <p>Flexbox (Flexible Box Layout) es un modelo de diseño en CSS que facilita la disposición y alineación de elementos dentro de un contenedor. Flexbox está diseñado para distribuir el espacio de manera eficiente y alinear los elementos de forma predecible, tanto horizontal como verticalmente, incluso cuando el tamaño de los elementos es dinámico o desconocido.</p>
+
+    <h3>Conceptos básicos de Flexbox:</h3>
+    <ul>
+        <p>Contenedor Flex: Un elemento se convierte en un contenedor flex al aplicar la propiedad display: flex o display: inline-flex. Todos los elementos directos de este contenedor se convierten en elementos flexibles (flex items).</p>
+        
+   
+    </ul>
+    <h3>Propiedades del contenedor Flex:</h3>
+    <ol class="container">
+        <li>
+            <h3>display: flex: Activa Flexbox para el contenedor.</h3>
+        </li>
+        <li>
+            <h3>flex-direction: Define la dirección en la que se colocarán los elementos dentro del contenedor.</h3>
+            
+            <ul>
+                <li>row (predeterminado): De izquierda a derecha.</li>
+                <li>row-reverse: De derecha a izquierda.</li>
+                <li>column: De arriba a abajo.</li>
+                <li>column-reverse: De abajo hacia arriba.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>justify-content: Alinea los elementos a lo largo del eje principal.</h3>
+            
+            <ul>
+                <li>flex-start (predeterminado): Alinea los elementos al inicio del eje.</li>
+                <li>flex-end: Alinea los elementos al final del eje.</li>
+                <li>center: Centra los elementos a lo largo del eje.</li>
+                <li>space-between: Distribuye los elementos con espacio igual entre ellos.</li>
+                <li>space-around: Distribuye los elementos con espacio alrededor de ellos.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>align-items: Alinea los elementos a lo largo del eje transversal.</h3>
+            
+            <ul>
+                <li>flex-start: Alinea al inicio del eje transversal.</li>
+                <li>flex-end: Alinea al final del eje transversal.</li>
+                <li>center: Alinea en el centro del eje transversal.</li>
+                <li>stretch (predeterminado): Estira los elementos para llenar el contenedor.</li>
+                <li>baseline: Alinea según la línea base del contenido.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>flex-wrap: Controla si los elementos se envuelven cuando el espacio en el contenedor es insuficiente.</h3>
+            
+            <ul>
+                <li>nowrap (predeterminado): Todos los elementos en una sola línea.</li>
+                <li>wrap: Los elementos se envuelven en nuevas líneas si es necesario.</li>
+                <li>wrap-reverse: Lo mismo que wrap, pero con el orden inverso.</li>
+              
+            </ul>
+        </li>
+        <li>
+            <h3>align-content: Controla el espacio entre las líneas en un contenedor con varios renglones (cuando flex-wrap está activo).</h3>
+            
+            <ul>
+                <li>flex-start, flex-end, center, space-between, space-around, stretch.</li>
+              
+            </ul>
+        </li>
+    </ol>
+
+    
+</body>
+</html>

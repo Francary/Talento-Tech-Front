@@ -1,0 +1,42 @@
+body{
+    background-color: #333333;
+    color: white;
+    
+}
+
+header{
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items {
+    background-color: bisque;
+    color:deeppink;
+    border: 2px palevioletred solid;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0px 5px 10px deeppink;
+    
+}
+.items img{
+    border-radius: 10px;
+}
+.items p{
+    color: #000;
+}
+button{
+    border-radius: 5px;
+    color: white;
+    border:none;
+    background-color: #333333;
+    padding: 6px;
+    cursor: pointer;
+}

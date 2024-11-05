@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Clase03/img/Logo Html.ico" type="image/x-icon">
+    <title>Formularios</title>
+</head>
+<h1> Formularios</h1>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><h3>Registrar Usuario:</h3></legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresar Nombre">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <label for="genero">Sexo</label>
+            <input type="checkbox" name="genero" id="mujer">
+            <input type="checkbox" name="genero" id="hombre">
+            <br><br>
+            <label for="edades">Selecciona un rango de edad:</label>
+            <select id="edades" name="edades">
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="18-25">18-25 años</option>
+                <option value="26-35">26-35 años</option>
+                <option value="36-45">36-45 años</option>
+            </select>
+            <br><br>            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </fieldset> 
+</body>
+
+</html>

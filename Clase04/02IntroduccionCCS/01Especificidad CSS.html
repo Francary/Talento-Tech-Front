@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <h1>Especificidad en CSS</h1>
+    <p>La especificidad es un conjunto de reglas que el navegador utiliza para decidir qué estilos aplicar cuando existen múltiples reglas CSS que afectan al mismo elemento. Cada selector tiene un nivel de especificidad, y la regla con mayor especificidad se aplicará, independientemente del orden en el que aparezcan las reglas en la hoja de estilos.</p>
+
+    <h1>Cálculo de la especificidad</h1>
+
+    <ol>
+        <li>
+            <h3>Estilos en línea → a:</h3>
+            <ul >
+                <li style= "color: red;">Un estilo directamente aplicado a un elemento en su atributo style="" tiene la máxima prioridad. </li>
+                <li>Puntuación: (1, 0, 0, 0)</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Selectores de ID → b:</h3>
+            <ul>
+                <li id="miID">Los selectores basados en el identificador único de un elemento (ID) tienen alta especificidad. (e.g., #miId).</li>
+                <li>Puntuación: (0, 1, 0, 0) por cada ID.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Selectores de clase, pseudoclases y atributos → c:</h3>
+            <ul>
+                <li class="miClase">Selectores de clase, pseudoclases (:hover, :nth-child), y selectores de atributo ([type="text"]) tienen especificidad media.</li>
+                <li>Puntuación: (0, 0, 1, 0) por cada clase, pseudoclase o atributo.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Selectores de tipo (etiquetas HTML) y pseudoelementos → d:</h3>
+            <ul>
+                <li>Los selectores de tipo, es decir, etiquetas HTML (p, div, h1) y pseudoelementos (::before, ::after), tienen la especificidad más baja.</li>
+                <li>Puntuación: (0, 0, 0, 1) por cada selector de tipo o pseudoelemento.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!--  contenedores de informacion -->
+    <span>span: son en Linea</span>
+    <span>Otro texto en span</span>
+
+    <div> div: son en Bloque </div>
+
+    <div>Otro texto en un div </div>
+</body>
+
+</html>

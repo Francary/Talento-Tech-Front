@@ -1,0 +1,23 @@
+*{
+    background-color: #333;
+    color: white;
+}
+
+li{ margin-top: 20px;}
+
+h1{ color:chartreuse;}
+
+h2{ color: deeppink;}
+
+h3{
+    color: fuchsia;
+}
+
+
+
+  a{
+    padding: 10px;
+    background-color:darkgreen;
+    border-radius: 5px;
+    text-decoration: none;
+  }

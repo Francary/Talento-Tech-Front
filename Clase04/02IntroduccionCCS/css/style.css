@@ -1,0 +1,45 @@
+/* selector universal */
+*{
+    background-color: #333333; /* cambiamos el color de fondo */
+    color: white;
+}
+p{
+    /*     color: green!important; */
+    color:deeppink!important;
+}
+
+/* id */
+#miID{
+    color:cyan;
+}
+
+/* clase */
+.miClase{
+    color:darkseagreen;
+}
+
+/* etiqueta */
+h1,h3 {
+    /* que quiero cambiar/configurar del elemento: como lo quiero cambiar valor */
+    color:greenyellow
+}
+
+li  {
+    color: bisque;
+}
+
+
+span{
+
+background-color: #0f0101;
+padding: 5px;
+border-radius: 5px;
+
+}
+
+div{
+    background-color: #05476b;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
