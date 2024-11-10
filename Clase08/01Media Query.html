@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Media Query</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Media Query</h1>
+        
+        <h3>Que es Media Query</h3>
+        <p>Es una técnica que permite aplicar diferentes estilos a una página web según el tamaño de la pantalla o las
+            características del dispositivo. Esto es fundamental para crear sitios web responsivos, que se adapten bien a
+            diferentes tamaños de pantallas, como móviles, tabletas y monitores de computadora.</p>
+            
+            <p>La sintaxis básica de una media query es la siguiente:</p>
+    <p>@media (condición) {
+        /* Estilos CSS */
+    }
+    </p>
+    <h3>Principales condiciones de las media queries</h3>
+    <ol>
+        <li> <span>max-width:</span> Aplica los estilos cuando el ancho de la pantalla es menor o igual al valor
+            especificado.</li>
+            <li><span>min-width:</span> Aplica los estilos cuando el ancho de la pantalla es mayor o igual al valor
+                especificado.</li>
+                <li><span>max-height y min-height:</span> Similar a width, pero basado en la altura de la pantalla.</li>
+                <li><span>orientation:</span> Aplica estilos según la orientación de la pantalla (por ejemplo, landscape o
+                    portrait).</li>
+        <li><span>aspect-ratio:</span> Permite aplicar estilos según la proporción de aspecto de la pantalla.</li>
+    </ol>
+    
+    <h3>Ejemplos Media Query</h3>
+    <div class="container">
+        <ol>
+            <li>Menor a 600px background-color: <span id="color1">darkseagreen</span></li>
+            <li>Mayor a 600px y Menor a 1024px background-color:<span id="color2">darkslategray</span> </li>
+            <li>Mayor a 1024px background-color: <span id="color3">darkkhaki</span></li>
+        </ol>
+        
+    </div>
+    
+</main>
+
+
+</body>
+
+</html>
