@@ -1,39 +1,195 @@
-body{
+body {
     background-color: #333333;
     color: white;
     margin: 0px 250px;
 }
 
-h1{
-    color:greenyellow
+h1 {
+    color: greenyellow
 }
 
-h2{
+h2 {
     color: hotpink;
 }
 
-ol li{
+ol li {
     background-color: #bef0be;
-    margin: 10px ;
+    margin: 10px;
     padding: 5px;
     border-radius: 25px;
     max-width: 300px;
-    
+
 }
 
 
 h3 {
     color: #f718f7;
 }
+
 ul li {
     color: black;
     margin-left: 0px;
     list-style: circle;
-    
+
 }
 
 .container {
-   display: flex;
-   flex-wrap: wrap;
-   
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* Propiedades Flexbox */
+
+.caja1 {
+    background-color: darksalmon;
+    border: 3px solid white;
+    padding: 25px;
+    width: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.caja2 {
+    background-color: cadetblue;
+    border: 2px solid white;
+    padding: 25px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.caja3 {
+    background-color: lightskyblue;
+    border: 2px solid white;
+    padding: 25px;
+    width: 70px;
+    color: black;
+    font-weight: bold;
+}
+
+.caja4 {
+    background-color: orchid;
+    border: 2px solid white;
+    padding: 25px;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.justify-content1 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+
+.justify-content2 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+
+.justify-content3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.justify-content4 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.justify-content5 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.justify-content6 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+.caja5 {
+    background-color: darksalmon;
+    border: 3px solid white;
+    padding: 25px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.caja6 {
+    background-color: cadetblue;
+    border: 2px solid white;
+    padding: 25px;
+    height: 100px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.caja7 {
+    background-color: lightskyblue;
+    border: 2px solid white;
+    padding: 25px;
+    height: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.caja8 {
+    background-color: orchid;
+    border: 2px solid white;
+    padding: 25px;
+    height: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+.align-items1 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.align-items2 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.align-items3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex-direction1 {
+    display: flex;
+    gap: 20px;
+   flex-direction: row;
+}
+.flex-direction2 {
+    display: flex;
+    gap: 20px;
+   flex-direction: row-reverse;
+}
+.flex-direction3 {
+    display: flex;
+    gap: 20px;
+   flex-direction: column;
+}
+.flex-direction4 {
+    display: flex;
+    gap: 20px;
+   flex-direction: column-reverse;
 }
