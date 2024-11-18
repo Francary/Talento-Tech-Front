@@ -1,0 +1,22 @@
+body{
+    background-color: #333333;
+    color: white;
+    margin: auto;
+    padding: 0; 
+    max-width: 1480px;
+}
+h1 {
+    color: greenyellow
+  }
+  
+  h2 {
+    color: hotpink;
+  }
+
+  h3{
+    color: deeppink
+  }
+
+  li{
+    padding: 10px;
+  }

@@ -82,3 +82,18 @@ Presentación y Conceptos Básicos de HTML
   ●    flex-grow
   ●    flex-shrink
   ●    flex-basis
+
+**CLASE 07**
+1. Grid
+
+  ●   ¿Qué es Grid?
+  ●   Implementación de Grid
+  ●   Maquetado con Flex y Grid
+  ●   Conceptos Básicos de Grid
+  ●   Propiedades Importantes en Grid
+
+2. Media Queries
+
+  ●   ¿Qué son Media Queries?
+  ●   Implementación de Media Queries
+  ●   Breakpoints en Media Queries
