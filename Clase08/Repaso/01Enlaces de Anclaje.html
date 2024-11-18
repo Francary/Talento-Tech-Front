@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Enlaces de Anclaje</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#seccion1">Como Fuciona</a></li>
+                <li><a href="#seccion2">Ventajas</a></li>
+                <li><a href="#seccion3">Consideraciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Enlaces de Anclaje</h1>
+        <p>Son un tipo de enlace en HTML que permite dirigir al usuario a una sección específica de una página web. Se
+            utilizan comúnmente para facilitar la navegación dentro de una misma página o para enlazar a un punto
+            específico de otra página.</p>
+        <section id="seccion1">
+            <h1>¿Cómo funcionan?</h1>
+            <ol>
+                <li>Se basan en el atributo id de un elemento HTML.</li>
+                <li>Al hacer clic en el enlace, el navegador desplaza automáticamente la vista hasta el elemento con el
+                    id especificado.</li>
+            </ol>
+            <a href="#nav">Ir Arriba</a>
+        </section>
+        <section id="seccion2">
+            <h1>Ventajas de los enlaces de anclaje</h1>
+
+            <ol>
+                <li>
+                    Facilitan la navegación: Útiles para páginas largas con mucho contenido.
+
+                </li>
+                <li>
+
+                    Compatibilidad: Funcionan en todos los navegadores sin necesidad de scripts adicionales.
+                </li>
+                <li>
+                    Accesibilidad: Mejoran la experiencia del usuario, especialmente en dispositivos móviles.
+                </li>
+            </ol>
+            <a href="#nav">Ir Arriba</a>
+        </section>
+        <section id="seccion3">
+            <h1>Consideraciones importantes</h1>
+            <ol>
+                <li>
+                    <h3>Compatibilidad con navegadores antiguos:</h3>
+                    <p>La mayoría de los navegadores modernos soportan desplazamiento suave (scroll-behavior: smooth),
+                        pero en navegadores antiguos, necesitarás JavaScript.</p>
+                </li>
+                <li>
+                    <h3>Evitar conflictos de IDs duplicados:</h3>
+                    <p>Cada id en una página debe ser único. Si tienes dos elementos con el mismo id, el navegador no
+                        sabrá a cuál apuntar</p>
+                </li>
+                <li>
+                    <h3>Efectos en SEO:</h3>
+                    <p>Los anclajes no afectan directamente al SEO, pero las buenas prácticas (como una navegación
+                        clara) pueden mejorar la experiencia del usuario, lo que es valorado por los motores de
+                        búsqueda.</p>
+                </li>
+            </ol>
+            <a href="#nav">Ir Arriba</a>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: #333333;
+    color: white;
+    margin: auto;
+    padding: 0; 
+    max-width: 1480px;
+}
+h1 {
+    color: greenyellow
+  }
+  
+  h2 {
+    color: hotpink;
+  }
+
+a {
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    background-color: lightgreen;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+ul li {
+    list-style: none;
+   
+   
+}
+
+section{
+    background-color: salmon;
+    color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 80px;
+    margin-top: 25px;
+}
+
