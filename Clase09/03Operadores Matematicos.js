@@ -25,7 +25,7 @@
     let desigualdad = 5 !== 3; // true
 
     // Resultados en consola
-    console.log("Operadores Aritméticos:");
+    console.warn("\nOperadores Aritméticos:\n ");
     console.log("Suma (5 + 3):", suma);
     console.log("Resta (10 - 6):", resta);
     console.log("Multiplicación (4 * 7):", multiplicacion);
@@ -33,14 +33,14 @@
     console.log("Módulo (10 % 3):", modulo);
     console.log("Exponenciación (3 ** 2):", exponenciacion);
 
-    console.log("\nOperadores de Incremento y Decremento:");
+    console.warn("\nOperadores de Incremento y Decremento:\n ");
     console.log("Incremento (5++):", incremento);
     console.log("Decremento (5--):", decremento);
 
-    console.log("\nOperadores de Asignación:");
+    console.warn("\nOperadores de Asignación:\n ");
     console.log("Asignación (10 += 5):", asignacion);
 
-    console.log("\nOperadores de Comparación:");
+    console.warn("\nOperadores de Comparación:\n ");
     console.log("Mayor que (10 > 5):", mayor);
     console.log("Menor que (10 < 5):", menor);
     console.log("Mayor o igual que (10 >= 10):", mayorIgual);
